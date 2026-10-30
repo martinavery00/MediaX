@@ -1,0 +1,22 @@
+.gradle/
+.kotlin/
+build/
+**/build/
+local.properties
+.idea/
+*.iml
+
+# Android
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Apple
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.moved-aside
+*.xcscmblueprint
+*.xccheckout
+.DS_Store
+
