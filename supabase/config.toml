@@ -1,0 +1,7 @@
+# Safe, reproducible configuration for the local Supabase CLI stack.
+# Environment-specific credentials and generated CLI state must not be committed.
+project_id = "mediax"
+
+[db.seed]
+enabled = true
+sql_paths = ["./seed.sql"]

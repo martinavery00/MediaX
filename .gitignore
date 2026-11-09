@@ -3,8 +3,19 @@
 build/
 **/build/
 local.properties
+supabase.properties
+.env
+.env.*
+!.env.example
 .idea/
 *.iml
+
+# Supabase CLI local state and secrets
+supabase/.branches/
+supabase/.temp/
+supabase/.env
+supabase/.env.*
+!supabase/.env.example
 
 # Android
 captures/
