@@ -1,0 +1,2 @@
+-- Local development seed file.
+-- Keep all future records obviously fake; never copy production household data here.
